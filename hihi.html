@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>For My Love ❤️</title>
+
+<style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        background: linear-gradient(to top right, #ff9a9e, #fad0c4);
+    }
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 2;
+    }
+
+    .container {
+        background: white;
+        width: 100%;
+        max-width: 350px;
+        padding: 25px;
+        border-radius: 25px;
+        box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+        text-align: center;
+    }
+
+    h1 {
+        margin-top: 0;
+        font-size: 22px;
+    }
+
+    button {
+        background: #ff4d6d;
+        color: white;
+        border: none;
+        padding: 14px 22px;
+        font-size: 16px;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: 0.2s ease;
+    }
+
+    button:active {
+        transform: scale(0.95);
+    }
+
+    #letter {
+    width: 90%;
+    max-width: 400px;
+    height: 350px;          /* Fixed height */
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    overflow-y: auto;       /* Enables vertical scroll */
+    overflow-x: hidden;     /* Prevent horizontal scroll */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    animation: fadeIn 2.3s ease both;
+    display: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+     font-family: 'Quicksand', sans-serif;
+    font-size: 16px;      /* adjust for readability */
+    line-height: 1.7;     /* smooth scrolling */
+    color: #333;
+
+    /* hide scrollbar */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#letter::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+    @keyframes fadeIn {
+        from {opacity: 0; transform: translateY(10px);}
+        to {opacity: 1; transform: translateY(0);}
+    }
+
+    /* Floating hearts */
+    .heart {
+        position: absolute;
+        bottom: -20px;
+        font-size: 18px;
+        animation: floatUp 5s linear forwards;
+    }
+
+    @keyframes floatUp {
+        to {
+            transform: translateY(-110vh);
+            opacity: 0;
+        }
+    }
+
+    /* Side flowers */
+    .flower-left, .flower-right {
+        position: fixed;
+        top: 0;
+        height: 100%;
+        width: 60px;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        opacity: 0.8;
+        z-index: 1;
+    }
+
+    .corner-flower {
+    position: absolute;
+    top: 5px;
+    right: 3px;
+    font-size: 28px;
+    transform: rotate(20deg);
+}
+
+
+    .flower-left { left: 5px; }
+    .flower-right { right: -25px; }
+</style>
+</head>
+
+<body>
+
+<div class="flower-left">
+    🌺 🐼 🐻‍❄️ 🐻 🐷 
+</div>
+
+<div class="flower-right">
+    🌺 🐼 🐻‍❄️ 🐻 🐷  
+</div>
+
+<div class="wrapper">
+    <div class="container">
+        <h1 style="font-family: 'Quicksand', sans-serif;">Hi Love🌝</h1>
+        <button id="openBtn" onclick="revealLetter()">
+    Open Your Letter 💌
+        </button>
+
+
+       <div id="letter">
+
+    <div class="corner-flower">🌺</div>
+
+    <p style="font-size: 16px; line-height: 1.7; color: #444; font-family: 'Quicksand', sans-serif;">
+
+
+        <p style="text-align: left; font-weight: bold; font-family: 'Quicksand', sans-serif;">My love,</p>
+
+<br style="font-family: 'Quicksand', sans-serif;">
+<p style="font-family: 'Quicksand', sans-serif;">Everyday with you feels like a blessing. I am so thankful for you for your patience, your understanding, and for how you’ve kept up with my moods and attitudes lately. I know I’m not always easy to deal with, but your love, care, and constant support never fail to calm my heart and make my world brighter. <br>
+<br>
+No matter what happens, no matter how rough or challenging our days may get, please know that I and our little ones are always here for you. You are never alone, and your presence in our lives makes everything better. I am truly grateful for every effort you put into us, for every smile, every kind word, and every little gesture that shows how much you care. Your love is a gift I treasure every single day. <br>
+<br>
+I want you to know that I am planning to court you properly, sooner or later, because you deserve to feel just how deeply I love you and how serious I am about our future together. I cannot imagine loving anyone else the way I love you. You are the person I am certain I want to spend the rest of my life with. My heart is yours completely, without hesitation or doubt. <br>
+<br>
+Even on the days when life feels heavy or unfair, I promise to stand by you, to hold you up, and to remind you that together we can overcome anything. Your sacrifices, your patience, and your endless love for me mean more than words can ever describe. I see every effort, every little thing you do, and I am humbled and thankful beyond measure. <br>
+<br>
+I love the way you laugh, the way you care for us, the way you always try your best even when it’s hard. I love how you make ordinary days feel magical and how your presence makes my heart feel full. I can’t imagine a future without you by my side, and I am so excited for everything we will build together every memory, every adventure, every quiet moment. <br>
+<br>
+Thank you for being you. Thank you for loving me, for caring for us, for being the strongest, most amazing person in my life. I love you endlessly, today, tomorrow, and always. I cannot wait to show you more, to court you properly, and to continue proving that my heart belongs to you and only you for the rest of our lives. <br>
+<br>
+        <p style="text-align: right; font-weight: bold; font-family: 'Quicksand', sans-serif;">Forever yours,</p>
+        <p style="text-align: right; font-weight: bold; font-family: 'Quicksand', sans-serif;"> Louise🌺</p>
+</p>
+
+</div>
+
+    </div>
+</div>
+
+<!-- Local MP3 -->
+<audio id="bgMusic" src="lovers.mp3" preload="auto"></audio>
+
+<script>
+    function revealLetter() {
+    // Hide the button
+    document.getElementById("openBtn").style.display = "none";
+
+    // Show the letter
+    document.getElementById("letter").style.display = "block";
+
+    // Play music starting at 0:47
+    const audio = document.getElementById("bgMusic");
+    audio.currentTime = 47;
+    audio.play();
+
+    // Start floating hearts
+    startHearts();
+}
+const audio = document.getElementById("bgMusic");
+
+audio.addEventListener("timeupdate", function () {
+    if (audio.currentTime >= audio.duration - 0.3) {
+        audio.currentTime = 47;
+        audio.play();
+    }
+});
+
+
+
+
+    function startHearts() {
+    setInterval(() => {
+        const heart = document.createElement("div");
+        heart.className = "heart";
+
+        // Randomly choose emoji
+        const emojis = ["💜", "🌺", "🌸", "💖"];
+        heart.innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
+
+        heart.style.left = Math.random() * 100 + "vw";
+        heart.style.fontSize = (Math.random() * 20 + 15) + "px";
+        heart.style.animationDuration = (Math.random() * 2 + 3) + "s";
+
+        document.body.appendChild(heart);
+
+        setTimeout(() => {
+            heart.remove();
+        }, 5000);
+
+    }, 600); // slightly slower = smoother
+}
+
+</script>
+
+</body>
+</html>
